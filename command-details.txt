@@ -1,0 +1,33 @@
+xammp:
+http://localhost:85/nusoftwarestudio/
+
+To watch for changes (ruby sass):
+sass --watch sass/main.sass:css/style.css
+
+
+To compile only (ruby sass):
+sass sass/main.sass:css/style.comp.css
+
+
+Alternative using the node package manager NPM and related package manager json file:
+
+To watch for changes:
+npm run watch:sass
+
+To compile only:
+npm run compile:sass
+
+To concatinate css files:
+npm run concat:css
+
+To set browser compatible prefixes:
+npm run prefix:css
+
+To output the css in a compressed state or min version if you like:
+npm run compress:css
+
+To perform all tasks:
+npm run build:css
+
+browsersync:
+browser-sync start --server --files "*.html, css/*.css, js/*.js"
