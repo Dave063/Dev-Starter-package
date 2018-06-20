@@ -1,7 +1,7 @@
 {
-  "name": "Dev Starter Package",
+  "name": "dev-starter-package",
   "version": "1.0.0",
-  "description": "Software development web site",
+  "description": "A base Dev Package with SASS",
   "main": "index.js",
   "dependencies": {
     "npm": "^6.1.0"
@@ -23,6 +23,14 @@
     "compress:css": "node-sass css/style-prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dave063/Dev-Starter-package.git"
+  },
   "author": "Dave",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dave063/Dev-Starter-package/issues"
+  },
+  "homepage": "https://github.com/Dave063/Dev-Starter-package#readme"
 }
